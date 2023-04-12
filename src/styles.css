@@ -1,0 +1,202 @@
+.App {
+  font-family: play;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #49454f;
+}
+
+body {
+  background-color: #49454f;
+}
+
+/* .tailleimg {
+  height: 180px;
+} */
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fbc2eb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(251, 194, 235, 1),
+    rgba(166, 193, 238, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(251, 194, 235, 1),
+    rgba(166, 193, 238, 1)
+  );
+}
+
+/* team */
+.team-profile {
+  padding: 20px;
+  background-color: #2a2831;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 136px;
+  height: 136px;
+}
+
+.team-name {
+  text-align: left;
+  color: #30f2cf;
+  margin: 0;
+  font-size: 24px;
+}
+
+.member-since {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}
+.equipe_title {
+  color: #30f2cf;
+}
+
+.team-player {
+  padding: 20px;
+  background-color: #2a2831;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+}
+
+.player-pic img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.palyer-name {
+  color: white;
+  text-align: left;
+  margin: 0;
+  font-size: 24px;
+}
+
+/* tournoi */
+.card-tournoi {
+  width: 100%;
+  height: 80px;
+  background-color: #2a2831;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: left;
+  padding: 0 20px;
+  border-radius: 7px;
+}
+
+.card-tournoi img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.card-tournoi h2 {
+  color: white;
+  margin: 0;
+  font-size: 25px;
+}
+
+.card-tournoi p {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer {
+  max-width: 100%;
+  width: 100%;
+  background-color: #2a2831;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+/*Progression Tree*/
+.tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 50px 0;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.encours {
+  background-color: blue;
+  color: white;
+}
+
+.team {
+  font-size: 18px;
+
+  font-family: play;
+}
+
+.score {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: play;
+  color: white;
+}
+
+.winner {
+  font-weight: bold;
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+/* Styling for columns */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* Styling for column headers */
+.column-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: play;
+  color: white;
+}
+
+.listeInfo {
+  list-style: none;
+  font-size: 25px;
+  color: white;
+}
